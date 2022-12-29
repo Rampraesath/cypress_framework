@@ -1,0 +1,31 @@
+{
+  "name": "cypress_framework",
+  "version": "1.0.0",
+  "description": "cypress project",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "cypress:open": "cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Rampraesath/la-coco-crypto-exchange.git"
+  },
+  "keywords": [
+    "e2e",
+    "tests",
+    "cypress",
+    "automation",
+    "frameworks"
+  ],
+  "author": "ram",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rampraesath/la-coco-crypto-exchange/issues"
+  },
+  "homepage": "https://github.com/Rampraesath/la-coco-crypto-exchange#readme",
+  "devDependencies": {
+    "cypress": "^12.2.0",
+    "typescript": "^4.9.4"
+  }
+}
