@@ -3,10 +3,9 @@ export class LandingPage{
     // Objects
 
     header = '[data-testid="lepepe-company-title"]'
-
-    lnk_coingecko = 'a'
-
-    inp_swap = '[data-testid="swap"]'
+    txt_moto = '[data-testid="lepepe-company-motto"]'
+    
+    inp_swap = '[data-testid="swap-input"]'
     inp_buy = '[data-testid="buy"]'
 
 
@@ -18,6 +17,7 @@ export class LandingPage{
 
     validateHeader(){
         cy.get(this.header).should('contain','La Pepe scammer exchange')
+        cy.get(this.txt_moto).should('contain', 'We love stonk and make monies')
     }
 
     validateInputFields(){
