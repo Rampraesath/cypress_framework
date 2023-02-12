@@ -77,7 +77,7 @@ Ensure the following are installed in your machines:
 4. Select E2E Testing and select Start E2E testing in Chrome
 5. In the Specs, click on any test cases of your choice and it will get executed
 
-**Disclaimer** : All the test cases should be passing. In case any test case fails, please rerun after couple of seconds as there could be some delay in the CoinGecko API response time
+**Disclaimer** : All the test cases should be passing. In case any test case fails, please rerun after couple of minutes as there could be some delay in the CoinGecko API response time
 
 ## Author
 
